@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <section className="footer mt-3">
@@ -8,29 +10,29 @@ function Footer() {
               <h5>Menu 1</h5>
               <ul classname="nav flex-column">
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Features
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Pricing
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     FAQs
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     About
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -38,29 +40,29 @@ function Footer() {
               <h5>Menu 2</h5>
               <ul classname="nav flex-column">
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Features
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Pricing
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     FAQs
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     About
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -68,29 +70,29 @@ function Footer() {
               <h5>Menu 3</h5>
               <ul classname="nav flex-column">
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Features
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Pricing
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     FAQs
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     About
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -98,29 +100,29 @@ function Footer() {
               <h5>Menu 4</h5>
               <ul classname="nav flex-column">
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Home
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Features
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     Pricing
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     FAQs
-                  </a>
+                  </NavLink>
                 </li>
                 <li classname="nav-item mb-2">
-                  <a classname="nav-link p-0 text-muted">
+                  <NavLink classname="nav-link p-0 text-muted">
                     About
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -146,25 +148,25 @@ function Footer() {
             <p>© 2021 Company, Inc. All rights reserved.</p>
             <ul classname="list-unstyled d-flex">
               <li classname="ms-3">
-                <a classname="link-dark">
+                <NavLink classname="link-dark">
                   <svg classname="bi" width="{24}" height="{24}">
                     <use xlinkhref="#twitter" />
                   </svg>
-                </a>
+                </NavLink>
               </li>
               <li classname="ms-3">
-                <a classname="link-dark">
+                <NavLink classname="link-dark">
                   <svg classname="bi" width="{24}" height="{24}">
                     <use xlinkhref="#instagram" />
                   </svg>
-                </a>
+                </NavLink>
               </li>
               <li classname="ms-3">
-                <a classname="link-dark">
+                <NavLink classname="link-dark">
                   <svg classname="bi" width="{24}" height="{24}">
                     <use xlinkhref="#facebook" />
                   </svg>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
