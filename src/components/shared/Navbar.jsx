@@ -20,13 +20,13 @@ function Navbar() {
                     <NavLink to="/service" className="nav-link">บริการ</NavLink>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <NavLink className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         ผลงาน
-                    </a>
+                    </NavLink>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a className="dropdown-item" href="#">พัฒนาเว็บไซต์</a></li>
-                        <li><a className="dropdown-item" href="#">กราฟฟิก</a></li>
-                        <li><a className="dropdown-item" href="#">โปรแกรมมิ่ง</a></li>
+                        <li><NavLink className="dropdown-item" href="#">พัฒนาเว็บไซต์</NavLink></li>
+                        <li><NavLink className="dropdown-item" href="#">กราฟฟิก</NavLink></li>
+                        <li><NavLink className="dropdown-item" href="#">โปรแกรมมิ่ง</NavLink></li>
                     </ul>
                 </li>
                 <li className="nav-item">
